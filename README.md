@@ -13,7 +13,9 @@ localhost:3000/profile
 - Next Js [frontend+ backend]
 - MongoDb [database]
 ## Dependency 
-- bcryptjs [ convert plain text password to encrypted password ]
+- bcryptjs [ convert plain text password to encrypted password ]\
+-    salt is integer
+     user.password = await bcrypt.hash(user.password,parseInt(process.env.BCRYPT_SALT)); 
 - jsonwebtoken [ to generate jwt token ]
   
      
