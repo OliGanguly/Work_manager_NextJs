@@ -11,5 +11,10 @@ localhost:3000/profile
       - page.js
 ## Technology:
 - Next Js [frontend+ backend]
-- MongoDb [database]      
+- MongoDb [database]
+## Dependency 
+- bcryptjs [ convert plain text password to encrypted password ]
+- jsonwebtoken [ to generate jwt token ]
+  
+     
 
