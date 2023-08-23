@@ -14,7 +14,9 @@ localhost:3000/profile
 - MongoDb [database]
 ## Dependency 
 - bcryptjs [ convert plain text password to encrypted password ]\
--    salt is integer
+- 
+     salt is integer
+  
      user.password = await bcrypt.hash(user.password,parseInt(process.env.BCRYPT_SALT)); 
 - jsonwebtoken [ to generate jwt token ]
   
